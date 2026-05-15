@@ -1,0 +1,187 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1060" width="800" height="1060">
+  <defs>
+    <!-- Tree symbol -->
+    <g id="tree-sm">
+      <circle cx="0" cy="-4" r="5" fill="#4a7a3a" opacity="0.7"/>
+      <circle cx="0" cy="-4" r="3.5" fill="#5a8a4a" opacity="0.8"/>
+    </g>
+    <g id="tree-lg">
+      <circle cx="0" cy="-5" r="8" fill="#3a6a2a" opacity="0.6"/>
+      <circle cx="0" cy="-5" r="5.5" fill="#4a7a3a" opacity="0.7"/>
+    </g>
+    <!-- Conifer tree -->
+    <g id="pine">
+      <polygon points="0,-10 -5,0 5,0" fill="#3a6a2a" opacity="0.7"/>
+      <polygon points="0,-7 -4,1 4,1" fill="#4a7a3a" opacity="0.8"/>
+    </g>
+  </defs>
+
+  <!-- Background - parchment/natural -->
+  <rect width="800" height="1060" fill="#f0e8d4" rx="0"/>
+  
+  <!-- Grass/ground area -->
+  <ellipse cx="420" cy="480" rx="330" ry="380" fill="#c8d8a8" opacity="0.4"/>
+  <ellipse cx="380" cy="520" rx="280" ry="340" fill="#b8cc98" opacity="0.3"/>
+  
+  <!-- Campground boundary - organic shape (rotated layout) -->
+  <path d="M120,150 C160,120 280,100 350,130 C420,160 520,200 580,280 C640,360 660,480 640,560 C620,640 580,720 520,780 C460,840 380,870 300,860 C220,850 160,800 130,720 C100,640 90,540 100,440 C105,340 100,220 120,150Z" 
+        fill="#8aaa6a" opacity="0.25" stroke="#6a8a4a" stroke-width="1" stroke-opacity="0.3"/>
+
+  <!-- Switzer Drive - diagonal road (rotated: now goes from bottom-left to upper-right area) -->
+  <path d="M50,870 L150,810 Q200,780 280,720 L420,620 Q460,590 500,540 L580,440 Q610,400 620,360 L660,260 Q680,200 690,160 L720,80" 
+        stroke="#8a7a60" stroke-width="28" stroke-linecap="round" fill="none" opacity="0.6"/>
+  <path d="M50,870 L150,810 Q200,780 280,720 L420,620 Q460,590 500,540 L580,440 Q610,400 620,360 L660,260 Q680,200 690,160 L720,80" 
+        stroke="#9a8a70" stroke-width="24" stroke-linecap="round" fill="none" opacity="0.5"/>
+  <!-- Road center line -->
+  <path d="M55,868 L152,808 Q202,778 282,718 L422,618 Q462,588 502,538 L582,438 Q612,398 622,358 L662,258 Q682,198 692,158 L718,82" 
+        stroke="#a89878" stroke-width="1" stroke-dasharray="12 8" fill="none" opacity="0.5"/>
+  <!-- Switzer Dr label -->
+  <text x="620" y="240" font-family="Georgia,serif" font-size="14" fill="#6a5a40" font-style="italic" transform="rotate(-50,620,240)" opacity="0.7">Switzer Drive</text>
+
+  <!-- Internal campground roads -->
+  <!-- Main loop road -->
+  <path d="M180,380 Q200,340 260,310 Q320,280 380,300 Q440,320 480,380 Q520,440 530,520 Q540,600 500,660 Q460,720 400,750 Q340,780 280,760 Q220,740 190,680 Q160,620 160,540 Q160,460 180,380Z" 
+        stroke="#a8966e" stroke-width="10" fill="none" stroke-linecap="round" opacity="0.5"/>
+  <!-- Inner roads -->
+  <path d="M260,400 Q300,380 340,400 Q380,420 400,470 Q420,520 400,570 Q380,620 340,650 Q300,680 260,660" 
+        stroke="#a8966e" stroke-width="8" fill="none" stroke-linecap="round" opacity="0.45"/>
+  <!-- Spur roads -->
+  <path d="M200,550 L280,520" stroke="#a8966e" stroke-width="7" fill="none" stroke-linecap="round" opacity="0.4"/>
+  <path d="M350,300 L380,380" stroke="#a8966e" stroke-width="7" fill="none" stroke-linecap="round" opacity="0.4"/>
+  <path d="M480,480 L530,440" stroke="#a8966e" stroke-width="7" fill="none" stroke-linecap="round" opacity="0.4"/>
+  <!-- Road to sani dump -->
+  <path d="M530,380 Q580,340 620,300 Q660,260 680,200 Q690,170 700,130" 
+        stroke="#a8966e" stroke-width="8" fill="none" stroke-linecap="round" opacity="0.45"/>
+  <!-- Bottom spur -->
+  <path d="M300,760 Q320,800 360,820 L420,830 Q460,830 500,800" 
+        stroke="#a8966e" stroke-width="8" fill="none" stroke-linecap="round" opacity="0.4"/>
+
+  <!-- Scattered trees around the perimeter -->
+  <!-- Top area trees -->
+  <use href="#pine" x="100" y="100"/><use href="#pine" x="140" y="80"/><use href="#pine" x="180" y="95"/>
+  <use href="#tree-lg" x="80" y="140"/><use href="#pine" x="120" y="160"/>
+  <use href="#tree-sm" x="200" y="75"/><use href="#pine" x="240" y="85"/>
+  <use href="#pine" x="700" y="100"/><use href="#pine" x="730" y="130"/>
+  <use href="#tree-lg" x="750" y="80"/><use href="#pine" x="680" y="140"/>
+  
+  <!-- Right side trees -->
+  <use href="#pine" x="620" y="400"/><use href="#pine" x="650" y="440"/>
+  <use href="#tree-lg" x="670" y="480"/><use href="#pine" x="640" y="520"/>
+  <use href="#pine" x="660" y="560"/><use href="#tree-sm" x="680" y="600"/>
+  <use href="#pine" x="620" y="640"/><use href="#tree-lg" x="650" y="680"/>
+  
+  <!-- Left side trees -->
+  <use href="#pine" x="80" y="300"/><use href="#pine" x="60" y="350"/>
+  <use href="#tree-lg" x="90" y="420"/><use href="#pine" x="70" y="480"/>
+  <use href="#pine" x="80" y="550"/><use href="#tree-sm" x="100" y="620"/>
+  <use href="#pine" x="70" y="700"/><use href="#tree-lg" x="90" y="760"/>
+  
+  <!-- Bottom trees -->
+  <use href="#pine" x="200" y="860"/><use href="#pine" x="260" y="880"/>
+  <use href="#tree-lg" x="340" y="890"/><use href="#pine" x="420" y="870"/>
+  <use href="#pine" x="500" y="850"/><use href="#tree-sm" x="560" y="830"/>
+  
+  <!-- Interior scattered trees (between sites) -->
+  <use href="#tree-sm" x="310" y="350"/><use href="#tree-sm" x="350" y="440"/>
+  <use href="#tree-sm" x="290" y="500"/><use href="#tree-sm" x="420" y="550"/>
+  <use href="#tree-sm" x="360" y="600"/><use href="#tree-sm" x="450" y="650"/>
+  <use href="#tree-sm" x="240" y="450"/><use href="#tree-sm" x="480" y="400"/>
+  <use href="#tree-sm" x="330" y="700"/><use href="#tree-sm" x="270" y="620"/>
+  <use href="#tree-sm" x="400" y="350"/><use href="#tree-sm" x="520" y="500"/>
+
+  <!-- ===== FACILITIES ===== -->
+  
+  <!-- Playground (rotated position) -->
+  <rect x="260" y="290" width="40" height="35" rx="4" fill="#d4c8a0" stroke="#8a7a5a" stroke-width="1.5" opacity="0.8"/>
+  <text x="280" y="305" text-anchor="middle" font-family="Arial,sans-serif" font-size="16" fill="#5a4a2a">⛹</text>
+  <text x="280" y="340" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#5a4a2a" font-weight="600">Playground</text>
+  
+  <!-- Washroom/Facilities building -->
+  <rect x="440" y="460" width="42" height="30" rx="4" fill="#c8b898" stroke="#8a7a5a" stroke-width="1.5" opacity="0.8"/>
+  <text x="461" y="480" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" fill="#5a4a2a">🚻</text>
+  <text x="461" y="505" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#5a4a2a" font-weight="600">Washroom</text>
+  
+  <!-- Horseshoe pit -->
+  <rect x="570" y="640" width="36" height="30" rx="4" fill="#d4c060" stroke="#8a7a2a" stroke-width="1.5" opacity="0.7"/>
+  <text x="588" y="660" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" fill="#5a4a2a">🔱</text>
+  <text x="588" y="685" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#5a4a2a" font-weight="600">Horseshoe</text>
+
+  <!-- Sani Dump Station (top right area after rotation becomes bottom left-ish) -->
+  <rect x="80" y="860" width="50" height="30" rx="4" fill="#e0d8c0" stroke="#8a7a5a" stroke-width="1"/>
+  <text x="105" y="878" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#5a4a2a" font-weight="600">Sani Dump</text>
+  <text x="105" y="890" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#7a6a4a">Station</text>
+
+  <!-- ===== CAMPSITE MARKERS ===== -->
+  <!-- Each site: circle with number -->
+  
+  <!-- Site 1 --><circle cx="409" cy="681" r="12" fill="#f5f0e0" stroke="#6a5a3a" stroke-width="1.2"/><text x="409" y="685" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="700" fill="#3a3020">1</text>
+  <!-- Site 2 --><circle cx="330" cy="662" r="12" fill="#f5f0e0" stroke="#6a5a3a" stroke-width="1.2"/><text x="330" y="666" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="700" fill="#3a3020">2</text>
+  <!-- Site 3 --><circle cx="567" cy="487" r="12" fill="#f5f0e0" stroke="#6a5a3a" stroke-width="1.2"/><text x="567" y="491" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="700" fill="#3a3020">3</text>
+  <!-- Site 4 --><circle cx="636" cy="502" r="12" fill="#f5f0e0" stroke="#6a5a3a" stroke-width="1.2"/><text x="636" y="506" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="700" fill="#3a3020">4</text>
+  <!-- Site 5 --><circle cx="678" cy="345" r="12" fill="#f5f0e0" stroke="#6a5a3a" stroke-width="1.2"/><text x="678" y="349" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="700" fill="#3a3020">5</text>
+  <!-- Site 6 --><circle cx="694" cy="214" r="12" fill="#f5f0e0" stroke="#6a5a3a" stroke-width="1.2"/><text x="694" y="218" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="700" fill="#3a3020">6</text>
+  <!-- Site 7 --><circle cx="615" cy="214" r="12" fill="#f5f0e0" stroke="#6a5a3a" stroke-width="1.2"/><text x="615" y="218" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="700" fill="#3a3020">7</text>
+  <!-- Site 8 --><circle cx="562" cy="327" r="12" fill="#f5f0e0" stroke="#6a5a3a" stroke-width="1.2"/><text x="562" y="331" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="700" fill="#3a3020">8</text>
+  <!-- Site 9 --><circle cx="578" cy="360" r="12" fill="#f5f0e0" stroke="#6a5a3a" stroke-width="1.2"/><text x="578" y="364" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="700" fill="#3a3020">9</text>
+  <!-- Site 10 --><circle cx="510" cy="351" r="11" fill="#f5f0e0" stroke="#6a5a3a" stroke-width="1.2"/><text x="510" y="355" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="700" fill="#3a3020">10</text>
+  <!-- Site 11 --><circle cx="510" cy="431" r="11" fill="#f5f0e0" stroke="#6a5a3a" stroke-width="1.2"/><text x="510" y="435" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="700" fill="#3a3020">11</text>
+  <!-- Site 12 --><circle cx="488" cy="464" r="11" fill="#f5f0e0" stroke="#6a5a3a" stroke-width="1.2"/><text x="488" y="468" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="700" fill="#3a3020">12</text>
+  <!-- Site 13 --><circle cx="446" cy="441" r="11" fill="#f5f0e0" stroke="#6a5a3a" stroke-width="1.2"/><text x="446" y="445" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="700" fill="#3a3020">13</text>
+  <!-- Site 14 --><circle cx="451" cy="389" r="11" fill="#f5f0e0" stroke="#6a5a3a" stroke-width="1.2"/><text x="451" y="393" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="700" fill="#3a3020">14</text>
+  <!-- Site 15 --><circle cx="462" cy="332" r="11" fill="#f5f0e0" stroke="#6a5a3a" stroke-width="1.2"/><text x="462" y="336" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="700" fill="#3a3020">15</text>
+  <!-- Site 16 --><circle cx="414" cy="303" r="11" fill="#f5f0e0" stroke="#6a5a3a" stroke-width="1.2"/><text x="414" y="307" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="700" fill="#3a3020">16</text>
+  <!-- Site 17 --><circle cx="356" cy="270" r="11" fill="#f5f0e0" stroke="#6a5a3a" stroke-width="1.2"/><text x="356" y="274" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="700" fill="#3a3020">17</text>
+  <!-- Site 18 --><circle cx="409" cy="261" r="11" fill="#f5f0e0" stroke="#6a5a3a" stroke-width="1.2"/><text x="409" y="265" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="700" fill="#3a3020">18</text>
+  <!-- Site 19 --><circle cx="478" cy="266" r="11" fill="#f5f0e0" stroke="#6a5a3a" stroke-width="1.2"/><text x="478" y="270" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="700" fill="#3a3020">19</text>
+  <!-- Site 20 --><circle cx="526" cy="195" r="11" fill="#f5f0e0" stroke="#6a5a3a" stroke-width="1.2"/><text x="526" y="199" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="700" fill="#3a3020">20</text>
+  <!-- Site 21 --><circle cx="378" cy="166" r="11" fill="#f5f0e0" stroke="#6a5a3a" stroke-width="1.2"/><text x="378" y="170" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="700" fill="#3a3020">21</text>
+  <!-- Site 22 --><circle cx="240" cy="232" r="11" fill="#f5f0e0" stroke="#6a5a3a" stroke-width="1.2"/><text x="240" y="236" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="700" fill="#3a3020">22</text>
+  <!-- Site 23 --><circle cx="298" cy="332" r="11" fill="#f5f0e0" stroke="#6a5a3a" stroke-width="1.2"/><text x="298" y="336" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="700" fill="#3a3020">23</text>
+  <!-- Site 24 --><circle cx="330" cy="379" r="11" fill="#f5f0e0" stroke="#6a5a3a" stroke-width="1.2"/><text x="330" y="383" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="700" fill="#3a3020">24</text>
+  <!-- Site 25 --><circle cx="303" cy="426" r="11" fill="#f5f0e0" stroke="#6a5a3a" stroke-width="1.2"/><text x="303" y="430" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="700" fill="#3a3020">25</text>
+  <!-- Site 26 --><circle cx="240" cy="445" r="11" fill="#f5f0e0" stroke="#6a5a3a" stroke-width="1.2"/><text x="240" y="449" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="700" fill="#3a3020">26</text>
+  <!-- Site 27 --><circle cx="203" cy="502" r="11" fill="#f5f0e0" stroke="#6a5a3a" stroke-width="1.2"/><text x="203" y="506" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="700" fill="#3a3020">27</text>
+  <!-- Site 28 --><circle cx="198" cy="558" r="11" fill="#f5f0e0" stroke="#6a5a3a" stroke-width="1.2"/><text x="198" y="562" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="700" fill="#3a3020">28</text>
+  <!-- Site 29 --><circle cx="234" cy="516" r="11" fill="#f5f0e0" stroke="#6a5a3a" stroke-width="1.2"/><text x="234" y="520" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="700" fill="#3a3020">29</text>
+  <!-- Site 30 --><circle cx="277" cy="483" r="11" fill="#f5f0e0" stroke="#6a5a3a" stroke-width="1.2"/><text x="277" y="487" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="700" fill="#3a3020">30</text>
+  <!-- Site 31 --><circle cx="346" cy="502" r="11" fill="#f5f0e0" stroke="#6a5a3a" stroke-width="1.2"/><text x="346" y="506" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="700" fill="#3a3020">31</text>
+  <!-- Site 32 --><circle cx="441" cy="492" r="11" fill="#f5f0e0" stroke="#6a5a3a" stroke-width="1.2"/><text x="441" y="496" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="700" fill="#3a3020">32</text>
+  <!-- Site 33 --><circle cx="378" cy="445" r="11" fill="#f5f0e0" stroke="#6a5a3a" stroke-width="1.2"/><text x="378" y="449" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="700" fill="#3a3020">33</text>
+  <!-- Site 34 --><circle cx="378" cy="384" r="11" fill="#f5f0e0" stroke="#6a5a3a" stroke-width="1.2"/><text x="378" y="388" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="700" fill="#3a3020">34</text>
+  <!-- Site 35 --><circle cx="356" cy="341" r="11" fill="#f5f0e0" stroke="#6a5a3a" stroke-width="1.2"/><text x="356" y="345" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="700" fill="#3a3020">35</text>
+  <!-- Site 36 --><circle cx="451" cy="554" r="11" fill="#f5f0e0" stroke="#6a5a3a" stroke-width="1.2"/><text x="451" y="558" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="700" fill="#3a3020">36</text>
+  <!-- Site 37 --><circle cx="393" cy="563" r="11" fill="#f5f0e0" stroke="#6a5a3a" stroke-width="1.2"/><text x="393" y="567" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="700" fill="#3a3020">37</text>
+  <!-- Site 38 --><circle cx="351" cy="587" r="11" fill="#f5f0e0" stroke="#6a5a3a" stroke-width="1.2"/><text x="351" y="591" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="700" fill="#3a3020">38</text>
+  <!-- Site 39 --><circle cx="293" cy="596" r="11" fill="#f5f0e0" stroke="#6a5a3a" stroke-width="1.2"/><text x="293" y="600" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="700" fill="#3a3020">39</text>
+  <!-- Site 40 --><circle cx="250" cy="625" r="11" fill="#f5f0e0" stroke="#6a5a3a" stroke-width="1.2"/><text x="250" y="629" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="700" fill="#3a3020">40</text>
+
+  <!-- ===== TITLE BLOCK ===== -->
+  <rect x="440" y="890" width="320" height="140" rx="8" fill="#f5f0e0" stroke="#c8b898" stroke-width="1.5" opacity="0.9"/>
+  <text x="600" y="925" text-anchor="middle" font-family="Georgia,serif" font-size="28" font-weight="700" fill="#3a3020">Hinton Municipal</text>
+  <text x="600" y="958" text-anchor="middle" font-family="Georgia,serif" font-size="28" font-weight="700" fill="#3a3020">Campgrounds</text>
+  <!-- Decorative line -->
+  <line x1="530" y1="970" x2="670" y2="970" stroke="#8a7a5a" stroke-width="1.5"/>
+  <!-- Fire icon -->
+  <text x="600" y="995" text-anchor="middle" font-size="20">🔥</text>
+  
+  <!-- Legend -->
+  <rect x="40" y="940" width="200" height="90" rx="6" fill="#f5f0e0" stroke="#c8b898" stroke-width="1" opacity="0.9"/>
+  <text x="140" y="960" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="700" fill="#5a4a2a">MAP LEGEND</text>
+  <circle cx="65" cy="978" r="7" fill="#f5f0e0" stroke="#6a5a3a" stroke-width="1"/><text x="65" y="982" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" font-weight="700" fill="#3a3020">#</text>
+  <text x="82" y="982" font-family="Arial,sans-serif" font-size="9" fill="#5a4a2a">Campsite</text>
+  <rect x="58" y="994" width="14" height="10" rx="2" fill="#c8b898" stroke="#8a7a5a" stroke-width="0.8"/>
+  <text x="82" y="1003" font-family="Arial,sans-serif" font-size="9" fill="#5a4a2a">Facility</text>
+  <line x1="55" y1="1018" x2="75" y2="1018" stroke="#9a8a70" stroke-width="4" stroke-linecap="round"/>
+  <text x="82" y="1022" font-family="Arial,sans-serif" font-size="9" fill="#5a4a2a">Road</text>
+
+  <!-- Compass rose -->
+  <g transform="translate(730,940)">
+    <circle cx="0" cy="0" r="22" fill="#f5f0e0" stroke="#c8b898" stroke-width="1"/>
+    <polygon points="0,-18 -4,-6 0,-8 4,-6" fill="#8a3030"/>
+    <polygon points="0,18 -4,6 0,8 4,6" fill="#c8b898"/>
+    <polygon points="-18,0 -6,-4 -8,0 -6,4" fill="#c8b898"/>
+    <polygon points="18,0 6,-4 8,0 6,4" fill="#c8b898"/>
+    <text x="0" y="-24" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="700" fill="#5a4a2a">N</text>
+  </g>
+
+</svg>
