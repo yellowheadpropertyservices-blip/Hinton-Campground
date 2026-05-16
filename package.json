@@ -1,0 +1,16 @@
+{
+  "name": "hinton-campgrounds",
+  "version": "1.0.0",
+  "description": "Hinton Municipal & Maskuta Creek Campground booking site",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "stripe": "^17.0.0",
+    "nodemailer": "^6.9.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
